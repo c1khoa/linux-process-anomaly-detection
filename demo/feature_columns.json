@@ -1,0 +1,9 @@
+[
+    "threadId",
+    "parentProcessId",
+    "userId",
+    "mountNamespace",
+    "argsNum",
+    "returnValue"
+
+]

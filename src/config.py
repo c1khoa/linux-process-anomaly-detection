@@ -1,0 +1,6 @@
+DATA_PATH = 'data/train.csv'
+PREPROCESSING_PATH = 'models/preprocessing'
+BASELINE_SAVE_PATH = 'models/baseline'
+IMAGE_SAVE_PATH = 'images'
+TUNED_SAVE_PATH = 'models/tuned'
+METADATA_SAVE_PATH = 'results'

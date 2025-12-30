@@ -1,0 +1,38 @@
+{
+    "timestamp": "20251223_194345",
+    "optimized_metric": "f1",
+    "models": {
+        "Logistic Regression": {
+            "f1_score": 0.49551258101262624,
+            "accuracy": 0.9614999135994471,
+            "recall_class_1": 0.972972972972973,
+            "best_threshold": 0.9409090909090909,
+            "f1_at_best_threshold": 0.010657193605683837,
+            "train_time_sec": 656.5853142738342
+        },
+        "Random Forest": {
+            "f1_score": 0.7919676957637021,
+            "accuracy": 0.9997292782673809,
+            "recall_class_1": 0.8918918918918919,
+            "best_threshold": 0.740909090909091,
+            "f1_at_best_threshold": 0.584070796460177,
+            "train_time_sec": 717.0819301605225
+        },
+        "XGBoost": {
+            "f1_score": 0.780219478005054,
+            "accuracy": 0.9996659178618743,
+            "recall_class_1": 1.0,
+            "best_threshold": 0.8863636363636364,
+            "f1_at_best_threshold": 0.5606060606060606,
+            "train_time_sec": 1605.1773779392242
+        },
+        "LightGBM": {
+            "f1_score": 0.8437067877761262,
+            "accuracy": 0.9998271988940729,
+            "recall_class_1": 0.8918918918918919,
+            "best_threshold": 0.9318181818181818,
+            "f1_at_best_threshold": 0.6875,
+            "train_time_sec": 1898.178207874298
+        }
+    }
+}
