@@ -221,10 +221,13 @@ if source_file:
             st.session_state.is_running = False
             st.balloons()
 
-    elif st.session_state.current_index == 0:
+    if st.session_state.current_index == 0:
+        stream_placeholder.empty() 
         stream_placeholder.info("Nhấn 'Bắt đầu' để chạy giám sát.")
-    else:
+    elif not st.session_state.is_running:
+        stream_placeholder.empty()
         stream_placeholder.warning("Đã tạm dừng. Nhấn 'Tiếp tục' để chạy tiếp.")
+
 
 else:
     st.error("❌ Không tìm thấy file test.csv")
