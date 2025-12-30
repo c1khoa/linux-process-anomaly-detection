@@ -105,9 +105,8 @@ https://www.kaggle.com/competitions/data-bounty-2-os-anomaly-detection
 
 ---
 
-## 🧪 Demo / Reproducibility
-👉 **Kaggle Notebook Demo (Public)**  
-> *(Insert your notebook link here)*  
+## 🧪 Demo
+https://linux-process-anomaly-detection.streamlit.app/
 
 ## ⚙️ Installation & Setup
 
